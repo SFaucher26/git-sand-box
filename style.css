@@ -1,0 +1,42 @@
+/*
+font-family : arial,
+*/
+body{
+    background-color: ivory;
+}
+.titre{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+h1{
+    margin-left: 2rem;
+}
+.accordeon{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    width: 90%;
+    text-align: center;
+    margin-left: 2rem;
+}
+.commandes{
+    display: flex;/*Parent de p et i*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #777;
+}
+
+.explications{
+    color:#777;
+    background-color: #eee;
+    padding:3rem;
+    display: none;
+}
+.visible{
+    display: block;
+}
+.fa-github{
+    font-size: xx-large;
+    margin: auto;
+}
