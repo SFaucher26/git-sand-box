@@ -6,18 +6,18 @@ body{
 }
 .titre{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 2rem;
 }
-h1{
-    margin-left: 2rem;
-}
+
 .accordeon{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
-    width: 90%;
+    width: 40%;
     text-align: center;
     margin-left: 2rem;
+    border: 1px solid #777;
+    margin: 1rem;
 }
 .commandes{
     display: flex;/*Parent de p et i*/
@@ -39,4 +39,14 @@ h1{
 .fa-github{
     font-size: xx-large;
     margin: auto;
+    margin-left:1rem;
+}
+.couleur{
+    color: green;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
